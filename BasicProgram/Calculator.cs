@@ -17,6 +17,12 @@ namespace BasicProgram
             result = first + second;
             Console.WriteLine("Sum:" + result);
         }
+
+        public void Substaction()
+        {
+            result = Math.Abs(first + second);
+            Console.WriteLine("diff:" + result);
+        }
     }
 }
 
