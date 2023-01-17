@@ -18,9 +18,21 @@ namespace BasicProgram
             Console.WriteLine("Sum:" + result);
         }
 
+        public void Multiplication()
+        {
+            result = first * second;
+            Console.WriteLine("Multiply:" + result);
+        }
+
+        public void Division()
+        {
+            result = first / second;
+            Console.WriteLine("Div:" + result);
+        }
+
         public void Substaction()
         {
-            result = Math.Abs(first + second);
+            result = Math.Abs(first - second);
             Console.WriteLine("diff:" + result);
         }
     }

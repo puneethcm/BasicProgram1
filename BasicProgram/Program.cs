@@ -18,8 +18,8 @@ class Program
                 Calculator calculator1 = new Calculator(first, second);
                 calculator1.Addition();
                 calculator1.Substaction();
-                //calculator1.Multiplication();
-                //calculator1.Division();
+                calculator1.Multiplication();
+                calculator1.Division();
                 //Console.WriteLine("Welcome to Basic Program");
                 Console.WriteLine("Please enter third number");
                 int third = Convert.ToInt32(Console.ReadLine());
@@ -28,8 +28,8 @@ class Program
                 Calculator calculator2 = new Calculator(third, fourth);
                 calculator2.Addition();
                 calculator2.Substaction();
-                //calculator2.Multiplication();
-                //calculator2.Division();
+                calculator2.Multiplication();
+                calculator2.Division();
                 break;
 
             case 2:
@@ -46,7 +46,6 @@ class Program
                 break;
                     
         }
-
         Console.ReadLine();
     }
 }
