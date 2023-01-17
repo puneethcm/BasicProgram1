@@ -11,6 +11,8 @@ class Program
         Calculator calculator1 = new Calculator(first, second);
         calculator1.Addition();
         calculator1.Substaction();
+        calculator1.Multiplication();
+        calculator1.Division();
 
         Console.WriteLine("Welcome to Basic Program");
         Console.WriteLine("Please enter first number");
@@ -20,6 +22,8 @@ class Program
         Calculator calculator2 = new Calculator(third, fourth);
         calculator2.Addition();
         calculator2.Substaction();
+        calculator2.Multiplication();
+        calculator2.Division();
         Console.ReadLine();
     }
 }
