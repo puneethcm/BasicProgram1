@@ -14,10 +14,9 @@ class Program
         calculator1.Multiplication();
         calculator1.Division();
 
-        Console.WriteLine("Welcome to Basic Program");
-        Console.WriteLine("Please enter first number");
+        Console.WriteLine("Please enter third number");
         int third = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("Please enter second number");
+        Console.WriteLine("Please enter fourth number");
         int fourth = Convert.ToInt32(Console.ReadLine());
         Calculator calculator2 = new Calculator(third, fourth);
         calculator2.Addition();
