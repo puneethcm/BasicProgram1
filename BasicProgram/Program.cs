@@ -20,7 +20,8 @@ class Program
                 calculator1.Substaction();
                 calculator1.Multiplication();
                 calculator1.Division();
-                //Console.WriteLine("Welcome to Basic Program");
+
+
                 Console.WriteLine("Please enter third number");
                 int third = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Please enter fourth number");
