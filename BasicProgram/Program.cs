@@ -1,11 +1,13 @@
-﻿namespace BasicProgram;
+﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace BasicProgram;
 class Program
 {
     static void Main(string[] args)
     {
         Console.WriteLine("Welcome to Basic Program");
         Console.WriteLine("Please choose any one program");
-        Console.WriteLine("1:Calculator\n2:SwitchCase\n10:Exit");
+        Console.WriteLine("1:Calculator\n2:SwitchCase\n3:Fibonacci\n10:Exit");
         int option = Convert.ToInt32(Console.ReadLine());
 
         switch (option)
@@ -37,6 +39,13 @@ class Program
                 Console.WriteLine("Enter the  number from 1 to 7");
                 int day = Convert.ToInt32(Console.ReadLine());
                 WeekDays.FindADayWhichFallsOnWeek(day);
+                break;
+
+            case 3:
+                Console.Write("Enter the number: ");
+                int number = Convert.ToInt32(Console.ReadLine());
+                FiboNumber fibonacci = new FiboNumber(number);
+                fibonacci.Fibonacci();
                 break;
 
             case 10:
