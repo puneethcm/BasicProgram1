@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 namespace BasicProgram
 {
 	public class FiboNumber
@@ -26,4 +26,3 @@ namespace BasicProgram
 		}
 	}
 }
-
