@@ -49,7 +49,7 @@ class Program
                 break;
 
             case 4:
-                Console.WriteLine("Enter the number to find Prime Number");
+                Console.WriteLine("Enter the number to find Prime Numbers");
                 PrimeNumber.PrimeNumb();
                 break;
 

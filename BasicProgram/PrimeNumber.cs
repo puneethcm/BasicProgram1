@@ -9,7 +9,7 @@ namespace BasicProgram
             int firstNumber = Convert.ToInt32(Console.ReadLine());
             Console.Write("Enter the End Number : ");
             int secondNumber = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine($"The Prime Numbers between {firstNumber} and {secondNumber} are : ");
+            Console.WriteLine("The Prime Numbers between {firstNumber} and {secondNumber} are : ");
             for (int i = firstNumber; i <= secondNumber; i++)
             {
                 int counter = 0;
