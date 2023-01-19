@@ -4,6 +4,7 @@ namespace BasicProgram
 	public class FiboNumber
 	{
 		int number;
+		//parameter constrctor
 		public FiboNumber(int firstNumb)
 		{
 			number = firstNumb;
@@ -19,6 +20,7 @@ namespace BasicProgram
 			{
 				n3 = n1 + n2;
 				Console.Write(n3 + "");
+				//initializing
 				n1 = n2;
 				n2 = n3;
 			}
