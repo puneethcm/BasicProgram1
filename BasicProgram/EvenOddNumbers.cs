@@ -21,19 +21,18 @@ namespace BasicProgram
 					oddNumber[oddIndex] = i;
 					oddIndex++;
 				}
-            }
-
-            Console.WriteLine("\nEven numbers from range 1 to 100");
+            		}
+            		Console.WriteLine("\nEven numbers from range 1 to 100");
 			for (int j = 0; j < evenNumber.Length; j++)
 			{
 				Console.Write(evenNumber[j] + " ");
 			}
-            Console.WriteLine("\n\nOdd numbers from range 1 to 100");
-            for (int j = 0; j < oddNumber.Length; j++)
+            		Console.WriteLine("\n\nOdd numbers from range 1 to 100");
+            		for (int j = 0; j < oddNumber.Length; j++)
 			{
-                Console.Write(oddNumber[j] + " ");
-            }
-        }
+                		Console.Write(oddNumber[j] + " ");
+            		}
+        	}
 	}
 }
 
