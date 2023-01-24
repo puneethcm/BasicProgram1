@@ -7,7 +7,8 @@ class Program
     {
         Console.WriteLine("Welcome to Basic Program");
         Console.WriteLine("Please choose any one program");
-        Console.WriteLine("1:Calculator\n2:SwitchCase\n3:Fibonacci\n4:PrimeNumber\n5:Coin Flip\n6:Swap two numbers\n10:Exit");
+        Console.WriteLine("1:Calculator\n2:SwitchCase\n3:Fibonacci\n4:PrimeNumber\n5:Coin Flip\n6:Swap two numbers" +
+                           "\n7:Enen and odd numbers\n10:Exit");
         int option = Convert.ToInt32(Console.ReadLine());
 
         switch (option)
@@ -60,6 +61,10 @@ class Program
             case 6:
                 Console.WriteLine("Welcome to Swap two numbers program");
                 SwapNumber.SwapTowNumber();
+                break;
+            case 7:
+                Console.WriteLine("Welcone to even and odd program");
+                EvenOddNumbers.EvenAndOddNumbers();
                 break;
 
             case 10:
