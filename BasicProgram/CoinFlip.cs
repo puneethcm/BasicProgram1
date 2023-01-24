@@ -22,8 +22,10 @@ namespace BasicProgram
 				}	
 			}
             Console.WriteLine("Head {0} Tail {1}", headCount, tailCount);
-			Console.WriteLine("Head Percentage {0}%", (headCount*100)/n);
-            Console.WriteLine("Head Percentage {0}%", (tailCount * 100) / n);
+			int headPercent = (headCount * 100) / n;
+            Console.WriteLine("Head Percentage {0}%", headPercent);
+			int tailPercent = (tailCount * 100) / n;
+            Console.WriteLine("Head Percentage {0}%", tailPercent);
         }
 	}
 }
