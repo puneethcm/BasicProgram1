@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 namespace BasicProgram
 {
 	public class CoinFlip
@@ -21,12 +21,20 @@ namespace BasicProgram
 					tailCount++;
 				}	
 			}
-            Console.WriteLine("Head {0} Tail {1}", headCount, tailCount);
+            		Console.WriteLine("Head {0} Tail {1}", headCount, tailCount);
 			int headPercent = (headCount * 100) / n;
-            Console.WriteLine("Head Percentage {0}%", headPercent);
+            		Console.WriteLine("Head Percentage {0}%", headPercent);
 			int tailPercent = (tailCount * 100) / n;
             		Console.WriteLine("Head Percentage {0}%", tailPercent);
-        }
+        	}
 	}
 }
+
+
+
+
+
+
+
+
 
