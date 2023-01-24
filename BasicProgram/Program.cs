@@ -7,7 +7,7 @@ class Program
     {
         Console.WriteLine("Welcome to Basic Program");
         Console.WriteLine("Please choose any one program");
-        Console.WriteLine("1:Calculator\n2:SwitchCase\n3:Fibonacci\n4:PrimeNumber\n10:Exit");
+        Console.WriteLine("1:Calculator\n2:SwitchCase\n3:Fibonacci\n4:PrimeNumber\n5:Coin Flip\n10:Exit");
         int option = Convert.ToInt32(Console.ReadLine());
 
         switch (option)
@@ -51,6 +51,11 @@ class Program
             case 4:
                 Console.WriteLine("Enter the number to find Prime Numbers");
                 PrimeNumber.PrimeNumb();
+                break;
+
+            case 5:
+                Console.WriteLine("Welcome to coin flip program");
+                CoinFlip.CoinFlipCount();
                 break;
 
             case 10:
