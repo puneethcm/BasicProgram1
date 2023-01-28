@@ -8,7 +8,7 @@ class Program
         Console.WriteLine("Welcome to Basic Program");
         Console.WriteLine("Please choose any one program");
         Console.WriteLine("1:Calculator\n2:SwitchCase\n3:Fibonacci\n4:PrimeNumber\n5:Coin Flip\n6:Swap two numbers" +
-                           "\n7:Enen and odd numbers\n8:To Fine Number is Prime or Not\n9:Vowels or Consonant\n10:Exit");
+                           "\n7:Enen and odd numbers\n8:To Fine Number is Prime or Not\n9:Vowels or Consonant\n10:Leap Year");
         int option = Convert.ToInt32(Console.ReadLine());
 
         switch (option)
@@ -77,6 +77,7 @@ class Program
                 break;
 
             case 10:
+                LeapYear.FindLeapYear();
                 break;
 
             default:
