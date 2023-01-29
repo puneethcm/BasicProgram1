@@ -9,7 +9,7 @@ class Program
         Console.WriteLine("Please choose any one program");
         Console.WriteLine("1:Calculator\n2:SwitchCase\n3:Fibonacci\n4:PrimeNumber\n5:Coin Flip\n6:Swap two numbers" +
                            "\n7:Enen and odd numbers\n8:To Fine Number is Prime or Not\n9:Vowels or Consonant\n10:Leap Year" +
-                           "\n11:Harmonic Numbers\n:12:Fotorial\n13:Large Number\n14: Quotient and Remainder");
+                           "\n11:Harmonic Numbers\n:12:Fotorial\n13:Large Number\n14: Quotient and Remainder\n15:Power of Two");
         int option = Convert.ToInt32(Console.ReadLine());
 
         switch (option)
@@ -91,6 +91,9 @@ class Program
                 break;
             case 14:
                 QuotientReminder.FindQuotientReminder();
+                break;
+            case 15:
+                PowerOfTwo.FindPowerOfTwo();
                 break;
 
             default:
